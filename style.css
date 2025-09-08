@@ -1,0 +1,345 @@
+/* AI Tools Tierlist - Modern CSS Styles */
+
+/* Reset and Base Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background-color: #f8f9fa;
+}
+
+/* Container for consistent max-width and centering */
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Header Styles */
+.header {
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    color: white;
+    padding: 60px 0;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+.header-subtitle {
+    font-size: 1.2rem;
+    opacity: 0.9;
+    font-weight: 300;
+}
+
+/* Main Content Styles */
+.main {
+    padding: 40px 0;
+}
+
+/* Introduction Section */
+.intro {
+    background: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 40px;
+}
+
+.intro h2 {
+    color: #2c3e50;
+    font-size: 2rem;
+    margin-bottom: 15px;
+    border-bottom: 3px solid #667eea;
+    padding-bottom: 10px;
+}
+
+.intro p {
+    font-size: 1.1rem;
+    color: #555;
+    line-height: 1.8;
+}
+
+/* Tier Section Styles */
+.tier-section {
+    margin-bottom: 50px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+
+.tier-title {
+    font-size: 2.2rem;
+    font-weight: 700;
+    padding: 25px 30px;
+    margin: 0;
+    text-align: center;
+    color: white;
+    text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+/* Tier-specific colors */
+.tier-s {
+    background: linear-gradient(135deg, #ff6b6b, #ee5a24);
+}
+
+.tier-a {
+    background: linear-gradient(135deg, #feca57, #ff9ff3);
+}
+
+.tier-b {
+    background: linear-gradient(135deg, #48dbfb, #0abde3);
+}
+
+.tier-c {
+    background: linear-gradient(135deg, #a55eea, #8b5cf6);
+}
+
+.tier-d {
+    background: linear-gradient(135deg, #778ca3, #4b6584);
+}
+
+.tier-description {
+    padding: 15px 30px;
+    background: #f8f9fa;
+    color: #666;
+    font-style: italic;
+    margin: 0;
+    border-bottom: 1px solid #e9ecef;
+}
+
+/* Table Styles */
+.table-container {
+    overflow-x: auto;
+    padding: 0;
+}
+
+.tier-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 1rem;
+}
+
+.tier-table thead {
+    background: #f8f9fa;
+    position: sticky;
+    top: 0;
+    z-index: 10;
+}
+
+.tier-table th {
+    padding: 15px 20px;
+    text-align: left;
+    font-weight: 600;
+    color: #2c3e50;
+    border-bottom: 2px solid #dee2e6;
+    font-size: 1.1rem;
+}
+
+.tier-table td {
+    padding: 15px 20px;
+    border-bottom: 1px solid #e9ecef;
+    vertical-align: top;
+}
+
+.tier-table tbody tr {
+    transition: background-color 0.2s ease;
+}
+
+.tier-table tbody tr:hover {
+    background-color: #f8f9fa;
+}
+
+.tier-table tbody tr:nth-child(even) {
+    background-color: #fafbfc;
+}
+
+.tier-table tbody tr:nth-child(even):hover {
+    background-color: #f0f1f2;
+}
+
+/* Tool name styling */
+.tier-table td:first-child {
+    font-weight: 600;
+    color: #2c3e50;
+}
+
+/* Category styling */
+.tier-table td:nth-child(2) {
+    color: #667eea;
+    font-weight: 500;
+}
+
+/* Notes styling */
+.tier-table td:last-child {
+    color: #666;
+    font-size: 0.95rem;
+}
+
+/* Footer Styles */
+.footer {
+    background: #2c3e50;
+    color: white;
+    padding: 30px 0;
+    text-align: center;
+    margin-top: 60px;
+}
+
+.footer p {
+    margin: 5px 0;
+}
+
+.footer a {
+    color: #667eea;
+    text-decoration: none;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: #8b9cff;
+    text-decoration: underline;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    .container {
+        padding: 0 15px;
+    }
+
+    .header-title {
+        font-size: 2.2rem;
+    }
+
+    .header-subtitle {
+        font-size: 1rem;
+    }
+
+    .intro h2 {
+        font-size: 1.6rem;
+    }
+
+    .intro p {
+        font-size: 1rem;
+    }
+
+    .tier-title {
+        font-size: 1.8rem;
+        padding: 20px 15px;
+    }
+
+    .tier-description {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
+
+    .tier-table th,
+    .tier-table td {
+        padding: 12px 15px;
+        font-size: 0.9rem;
+    }
+
+    .tier-table th {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .header {
+        padding: 40px 0;
+    }
+
+    .header-title {
+        font-size: 1.8rem;
+    }
+
+    .main {
+        padding: 20px 0;
+    }
+
+    .intro {
+        padding: 20px;
+        margin-bottom: 30px;
+    }
+
+    .tier-section {
+        margin-bottom: 30px;
+    }
+
+    .tier-title {
+        font-size: 1.5rem;
+        padding: 15px 10px;
+    }
+
+    .tier-description {
+        padding: 10px;
+        font-size: 0.85rem;
+    }
+
+    .tier-table th,
+    .tier-table td {
+        padding: 10px 8px;
+        font-size: 0.85rem;
+    }
+
+    .tier-table th {
+        font-size: 0.9rem;
+    }
+}
+
+/* Print Styles */
+@media print {
+    .header {
+        background: #667eea !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    .tier-s,
+    .tier-a,
+    .tier-b,
+    .tier-c,
+    .tier-d {
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+
+    .footer {
+        background: #2c3e50 !important;
+        -webkit-print-color-adjust: exact;
+        color-adjust: exact;
+    }
+}
+
+/* Accessibility Improvements */
+@media (prefers-reduced-motion: reduce) {
+    * {
+        animation-duration: 0.01ms !important;
+        animation-iteration-count: 1 !important;
+        transition-duration: 0.01ms !important;
+    }
+}
+
+/* Focus styles for keyboard navigation */
+.tier-table tbody tr:focus {
+    outline: 2px solid #667eea;
+    outline-offset: -2px;
+}
+
+.footer a:focus {
+    outline: 2px solid #667eea;
+    outline-offset: 2px;
+    border-radius: 2px;
+}
