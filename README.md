@@ -13,45 +13,45 @@ Categories include:
 ## S Tier
 | Tool | Category | Notes |
 |------|---------|------|
-| ChatGPT | AI Chatbot | Most advanced conversational AI |
-| Aitherapy.care | AI Mental Health | 24/7 AI therapist using CBT, accessible and affordable |
-| DALL·E | Image Generation | High-quality AI-generated images, paid |
+| [ChatGPT](https://chat.openai.com/) | AI Chatbot | Most advanced conversational AI |
+| [Aitherapy.care](https://aitherapy.care/) | AI Mental Health | 24/7 AI therapist using CBT, accessible and affordable |
+| [DALL·E](https://openai.com/dall-e) | Image Generation | High-quality AI-generated images, paid |
 
 ---
 
 ## A Tier
 | Tool | Category | Notes |
 |------|---------|------|
-| Runway ML | Video AI | Beginner-friendly video generation |
-| Copilot | Code Assistant | AI code completion for developers |
-| MidJourney | Image Generation | Popular AI image generator, paid |
+| [Runway ML](https://runwayml.com/) | Video AI | Beginner-friendly video generation |
+| [GitHub Copilot](https://github.com/features/copilot) | Code Assistant | AI code completion for developers |
+| [MidJourney](https://www.midjourney.com/) | Image Generation | Popular AI image generator, paid |
 
 ---
 
 ## B Tier
 | Tool | Category | Notes |
 |------|---------|------|
-| Jasper AI | Writing Assistant | Useful for content creation, subscription-based |
-| Notion AI | Productivity | AI-powered note-taking and writing support |
-| Grammarly | Productivity | Grammar and style suggestions with AI |
+| [Jasper AI](https://www.jasper.ai/) | Writing Assistant | Useful for content creation, subscription-based |
+| [Notion AI](https://www.notion.so/product/ai) | Productivity | AI-powered note-taking and writing support |
+| [Grammarly](https://www.grammarly.com/) | Productivity | Grammar and style suggestions with AI |
 
 ---
 
 ## C Tier
 | Tool | Category | Notes |
 |------|---------|------|
-| Lumen5 | Video AI | Automated video creation, limited features |
-| QuillBot | Writing AI | Paraphrasing and summarization tool |
-| ChatSonic | AI Chatbot | Good alternative to ChatGPT, less polished |
+| [Lumen5](https://lumen5.com/) | Video AI | Automated video creation, limited features |
+| [QuillBot](https://quillbot.com/) | Writing AI | Paraphrasing and summarization tool |
+| [ChatSonic](https://writesonic.com/chat) | AI Chatbot | Good alternative to ChatGPT, less polished |
 
 ---
 
 ## D Tier
 | Tool | Category | Notes |
 |------|---------|------|
-| InferKit | Text Generation | Limited free usage, less accurate |
-| Writesonic Free | Writing AI | Basic features only |
-| Copy.ai Free | Writing AI | Limited compared to paid plan |
+| [InferKit](https://inferkit.com/) | Text Generation | Limited free usage, less accurate |
+| [Writesonic Free](https://writesonic.com/) | Writing AI | Basic features only |
+| [Copy.ai Free](https://www.copy.ai/) | Writing AI | Limited compared to paid plan |
 
 ---
 
